@@ -1,0 +1,7 @@
+《无限流生存档案》
+1. 下载 index.html，使用 Chrome、Edge 或 Safari 打开，无需安装依赖。打开后输入验证码 9900，点击“验证进入”。
+2. 选择15题后生成档案，点击“生成分享卡”，再“保存图片”。手机可长按海报图片保存。
+3. 当前没有公开网址，“复制测试链接”会提示未公开。可直接发送 index.html 文件给朋友，或发送保存的海报。
+4. 以后改内容：index.html 内 archetypes 是六套身份文案，raw 是题库，CSS :root 是颜色。修改题目映射需要重新验证计分。
+5. 答案仅保存在当前浏览器，不会上传；娱乐测试，无需账号。
+开发验证：python3 -m http.server 8000；另开终端 node tests/workflow.cjs 和 node tests/validation.cjs（需要 Playwright 和 Chromium）。
